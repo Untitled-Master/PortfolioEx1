@@ -1,0 +1,80 @@
+/* Reset some default styles for better consistency */
+body, h1, h3, p, input {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #18181B;
+    color: #A1A1AA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #18181B;
+    opacity: 0.7;
+    background-image:  linear-gradient(#86efad2a 1px, transparent 1px), linear-gradient(to right, #86efad2a 1px, #18181b3d 1px);
+    background-size: 20px 20px;
+}
+
+h1 {
+    color: #86EFAC;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: white;
+    font-weight: normal;
+    margin-bottom: 30px;
+    opacity: 1;
+}
+.conta{
+    background-color: #86efad50;
+    border-radius: 20px;
+    border: solid 2px white;
+    padding: 10px;
+    width: 58%;
+}
+.row1{
+    display: flex;
+    justify-content: space-around;
+}
+.pfp{
+    width: 20%;
+    border-radius: 100%;
+    border:solid 2px #ffffff;
+}
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .pfp{
+        width: 40%;
+        height: 40%;
+        border-radius: 100%;
+        border:solid 2px #ffffff;
+    }
+    .conta{
+        background-color: #86efad50;
+        border-radius: 20px;
+        border: solid 2px white;
+        padding: 10px;
+        width: 90%;
+    }
+    .row2{
+        width: 50%;
+    }
+    .smd{
+        margin-left: -120px;
+    }
+}
